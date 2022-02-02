@@ -1,0 +1,136 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(240, 211, 176); */
+}
+.Nomato
+{
+    display: grid;
+    grid-template-areas: 'Picture Picture Picture Picture Picture Picture Picture'
+                         'images images images images images images image'
+                         'Caption Caption Caption Caption Caption Caption Caption'
+                         'images2 images2 images2 images2 images2 images2 images2'
+                         'Capt Capt Capt Capt Capt Capt Capt'
+                         'images3 images3 images3 images3 images3 images3 images3'
+                         'footer footer footer footer footer footer footer';
+}
+.header
+{
+    display: grid;
+    grid-area: header;
+    grid-template-columns: 1fr;
+}
+.Picture
+{
+    display: grid;
+    grid-area: Picture;
+    background-image: url("https://www.sbicard.com/sbi-card-en/assets/media/images/personal/offers/categories/shopping/zomato/d-zomato-offer.jpg");
+    height: 500px;
+    width: 1515px;
+    color: white;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.Picture h1
+{
+    padding-top: 200px;
+
+}
+.images
+{
+    display: grid;
+    grid-area: images;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin-top: 50px;
+   margin-left: 130px;
+   margin-right: 130px;
+   margin-bottom: 50px;
+}
+#size
+{
+    border-radius: 10%;
+}
+.one
+{
+    border-radius: 2px solid black;
+}
+.one:hover
+{
+    transform: scale(1.1,1.1);
+    border-radius: 2%;
+    transition: all ease 0.3s;
+}
+#text
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+#text:hover
+{
+    color: crimson;
+}
+.one p
+{
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+}
+#box
+{
+    text-align: left;
+    font-size: 25px;
+    text-align: center;
+}
+.Caption
+{
+    display: grid;
+    grid-area: Caption;
+    margin-left: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.images2
+{
+    display: grid;
+    grid-area: images2;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+   margin-left: 200px;
+   margin-right: 200px;
+   margin-bottom: 25px;
+}
+.Capt
+{
+    display: grid;
+    grid-area: Capt;
+    margin-left: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.images3
+{
+    display: grid;
+    grid-area: images3;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 50px;
+}
+.footer
+{
+    display: grid;
+    grid-area: footer;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(212, 236, 174);
+    color: rgb(14, 11, 11);
+    padding: 50px;
+}
+.footer p
+{
+    font-size: 20px;
+}
+.footer h3
+{
+    font-size: 25px;
+}
